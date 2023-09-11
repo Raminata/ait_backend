@@ -1,0 +1,20 @@
+### Добавление статьи-1 о Марселе
+
+POST localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title" : "Title",
+  "description" : "Description",
+  "executorUserId": 1,
+  "startDate": "2022-10-02",
+  "finishDate": "2022-11-02"
+}
+
+### Получение всех статей о Марселе
+
+GET localhost:8080/api/users/1/tasks
+
+### Получение всех статей об Алишере
+
+GET localhost:8080/api/users/1232/tasks

@@ -1,0 +1,17 @@
+
+### Добавление статьи-1 о Марселе
+
+POST localhost:8080/api/events
+Content-Type: application/json
+
+{
+  "text" : "Статья о Марселе, преподавателе AIT. Любит быстро объяснять"
+}
+
+### Получение всех статей о Марселе
+
+GET localhost:8080/api/events
+
+### Получение всех статей об Алишере
+
+GET localhost:8080/api/events/1

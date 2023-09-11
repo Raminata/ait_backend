@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c813761-43d4-4103-b4af-b35c9cb2c266" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/EventApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/controllers/EventsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/controllers/api/EventsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/dto/EventDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/models/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/repositories/CrudRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/repositories/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/repositories/EventRepositoryJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/services/EventsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/java/de/ait/tracker/services/impl/EventsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/resources/http/requests.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/resources/sql/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EventApi/src/main/resources/sql/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/TaskManagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/controllers/TasksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/controllers/UsersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/controllers/api/TasksApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/controllers/api/UsersApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/NewTaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/NewUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/TaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/UpdateUserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/UserInTaskDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/pages/TasksDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/dto/pages/UsersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/exceptions/IncorrectUserIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/exceptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/models/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/repositories/TasksRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/repositories/UsersRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/services/TasksService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/services/UsersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/services/impl/TasksServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/services/impl/UsersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/validation/constraints/NotBeforeToday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/validation/constraints/NotWeakPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/validation/dto/ValidationErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/validation/dto/ValidationErrorsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/validation/handler/ValidationExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/validation/validators/PasswordValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/java/de/ait/task/validation/validators/TodayDateValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/resources/http/tasks.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskManager/src/main/resources/http/users.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/controllers/EventsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/controllers/api/EventsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/controllers/api/UsersApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/dto/EventDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/models/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/repositories/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/repositories/EventRepositoryJdbcTemplateImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/services/EventsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TaskTracker/src/main/java/de/ait/tracker/services/impl/EventsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/controllers/EventsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/controllers/api/EventsApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/dto/EventDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/dto/EventsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/dto/NewEventDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/models/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/repositories/EventsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/repositories/impl/EventsRepositoryListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/services/EventsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/java/de/ait/timepad/services/impl/EventsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apiWithFe/backend/src/main/resources/http/events.http" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_spring/src/main/java/de/aittr/auto_spring/Auto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_spring/src/main/java/de/aittr/auto_spring/AutoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_spring/src/main/java/de/aittr/auto_spring/AutoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_spring/src/main/java/de/aittr/auto_spring/AutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_spring/src/main/resources/templates/add_auto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_spring/src/main/resources/templates/auto.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_spring/src/main/resources/templates/auto_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/MainSpring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/repositories/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/repositories/impl/ProductRepositoryFileImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/services/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/services/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/validators/NameValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/java/de/ait/validators/impl/NameLengthValidatorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rest_api/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2TIOvOFgMcCWFy27OwoUdOGzun0" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Mina/Documents/github/QA/QA_API_Phonebook",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "35c77db25c01c3077e598531905dbd06",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ait.timepad.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="timepad" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="de.ait.timepad.RestApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c813761-43d4-4103-b4af-b35c9cb2c266" name="Changes" comment="" />
+      <created>1690727357920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690727357920</updated>
+      <workItem from="1690727358934" duration="324000" />
+      <workItem from="1690727866226" duration="50000" />
+      <workItem from="1691065800625" duration="2935000" />
+      <workItem from="1691236085847" duration="2144000" />
+      <workItem from="1691340988917" duration="614000" />
+      <workItem from="1692102260674" duration="237000" />
+      <workItem from="1692107881464" duration="4687000" />
+      <workItem from="1693147257979" duration="198000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
